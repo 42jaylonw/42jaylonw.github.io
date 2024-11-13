@@ -1,4 +1,5 @@
 _site
+trash/
 .bundle
 .sass-cache
 .jekyll-cache
