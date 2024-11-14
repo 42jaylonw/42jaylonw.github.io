@@ -9,7 +9,7 @@ profile:
   image: jaylon_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-  #    <p>555 your office number</p>
+#    <p>555 your office number</p>
 #    <p>123 your address street</p>
 #    <p>Your City, State 12345</p>
 
@@ -29,5 +29,5 @@ manipulation tasks. Regarding the **"RL vs. MPC"** debate, I believe the distinc
 ultimately involve Human-in-the-Loop processes. A more critical question is how to minimize human involvement while
 scaling these systems, inspired by Marc Raibert.
 
-I have previously interned at BAAI, SenseTime, Westlake University, and Tsinghua University. And exchanged at UC
-Berkeley and Shanghai Jiao Tong University.
+I have previously interned at BAAI, SenseTime, Westlake University, and Tsinghua University, and have also participated
+in exchange programs at UC Berkeley and Shanghai Jiao Tong University.

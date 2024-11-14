@@ -48,7 +48,7 @@
     <!-- Entry bib key -->
     <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
         <!-- Title -->
-        <div class="title">{{ entry.title }}</div>
+        <div class="title" style="font-size: 1.2em;"><strong>{{ entry.title }}</strong></div>
         <!-- Author -->
         <div class="author">
             {% assign author_array_size = entry.author_array | size %}
@@ -83,10 +83,10 @@
             {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
             {% endif %}
             {%- if author_is_self -%}
-            <em>
+            <strong>
                 {{- author.first }}
                 {{ author_last_html -}}
-            </em>
+            </strong>
             {%- else -%}
             {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
@@ -182,9 +182,9 @@
         {% include hook/bib.liquid %}
         {% endif %}
 
-        <!--        {% assign entrytype_text = entrytype | strip_html | strip %}-->
-        <!--        {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{-->
-        <!--        entrymonth }}{{ entryyear }}{% endcapture %}-->
+        {% assign entrytype_text = entrytype | strip_html | strip %}
+        {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}{% endif %}{% endcapture
+        %}
 
         <div class="periodical">
             {{ periodical | strip }}
