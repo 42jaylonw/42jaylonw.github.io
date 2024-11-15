@@ -9,7 +9,7 @@ profile:
   image: jaylon_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-#    <p>555 your office number</p>
+  #    <p>555 your office number</p>
 #    <p>123 your address street</p>
 #    <p>Your City, State 12345</p>
 
@@ -19,15 +19,13 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-I am a researcher at [Peking University - GALBOT
-Joint Lab](https://www.galbot.com/)
+I am a researcher at [Peking University - GALBOT Joint Lab](https://www.galbot.com/)
 and [Center on Frontiers of Computing Studies (CFCS)](https://cfcs.pku.edu.cn/english/), directed
-by [He Wang](https://hughw19.github.io/). I received my B.S. in Computer Engineering from UC Santa Cruz.
+by [He Wang](https://hughw19.github.io/). I received my B.S. in Computer Engineering from UC Santa Cruz. I have
+previously interned at BAAI, SenseTime, Westlake University, and Tsinghua University, and have also participated
+in exchange programs at UC Berkeley and Shanghai Jiao Tong University.
 
 My research interests lie at the intersection of robotics and machine learning, with a specific focus on locomotion and
-manipulation tasks. Regarding the **"RL vs. MPC"** debate, I believe the distinction is subtle, as both approaches
-ultimately involve Human-in-the-Loop processes. A more critical question is how to minimize human involvement while
-scaling these systems, inspired by Marc Raibert.
-
-I have previously interned at BAAI, SenseTime, Westlake University, and Tsinghua University, and have also participated
-in exchange programs at UC Berkeley and Shanghai Jiao Tong University.
+manipulation tasks. Regarding the **"RL vs. MPC"** debate, I believe the distinction is subtle, as both methods are
+fundamentally built through human-in-the-loop processes. A more critical question is how to minimize human involvement
+while scaling these systems, inspired by Marc Raibert.
