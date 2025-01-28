@@ -26,6 +26,8 @@ previously interned at BAAI, SenseTime, Westlake University, and Tsinghua Univer
 in exchange programs at UC Berkeley and Shanghai Jiao Tong University.
 
 My research interests lie at the intersection of robotics and machine learning, with a specific focus on locomotion and
-manipulation tasks. Regarding the **"RL vs. MPC"** debate, I believe the distinction is subtle, as both methods are
-fundamentally built through human-in-the-loop processes. A more critical question is how to minimize human involvement
-while scaling these systems, inspired by Marc Raibert.
+manipulation tasks. Regarding the **"RL vs. MPC"** debate, I believe the distinction is subtle.
+Both frameworks demand human-in-the-loop refinement during development 
+While RL employs reward-driven trial-and-error learning, MPC utilizes model-based real-time optimization. 
+Crucially, neither evolves autonomously: human expertise fundamentally shapes their architectures, 
+hyperparameters, and failure recovery strategies. 
