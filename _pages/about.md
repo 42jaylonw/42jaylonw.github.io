@@ -21,13 +21,13 @@ social: true # includes social icons at the bottom of the page
 
 I am a researcher at [Peking University - GALBOT Joint Lab](https://www.galbot.com/)
 and [Center on Frontiers of Computing Studies (CFCS)](https://cfcs.pku.edu.cn/english/), directed
-by [He Wang](https://hughw19.github.io/). I received my B.S. in Computer Engineering from UC Santa Cruz. I have
+by [He Wang](https://hughw19.github.io/). I received my B.S. from UC Santa Cruz in 2023. I have
 previously interned at BAAI, SenseTime, Westlake University, and Tsinghua University, and have also participated
 in exchange programs at UC Berkeley and Shanghai Jiao Tong University.
 
-My research interests lie at the intersection of robotics and machine learning, with a specific focus on locomotion and
-manipulation tasks. Regarding the **"RL vs. MPC"** debate, I believe the distinction is subtle.
-Both frameworks demand human-in-the-loop refinement during development 
+My research interests lie at the intersection of robotics and machine learning. 
+Regarding the **RL vs. MPC** debate, I believe the distinction is subtle.
+Both frameworks demand human-in-the-loop refinement during development. 
 While RL employs reward-driven trial-and-error learning, MPC utilizes model-based real-time optimization. 
-Crucially, neither evolves autonomously: human expertise fundamentally shapes their architectures, 
-hyperparameters, and failure recovery strategies. 
+Neither evolves autonomously: human expertise shapes their architectures, hyperparameters, 
+and failure recovery strategies.
