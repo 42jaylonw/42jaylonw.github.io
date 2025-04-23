@@ -21,13 +21,10 @@ social: true # includes social icons at the bottom of the page
 
 I am a researcher at [Peking University - GALBOT Joint Lab](https://www.galbot.com/)
 and [Center on Frontiers of Computing Studies (CFCS)](https://cfcs.pku.edu.cn/english/), directed
-by [He Wang](https://hughw19.github.io/). I received my B.S. from UC Santa Cruz in 2023. I have
-previously interned at BAAI, SenseTime, Westlake University, and Tsinghua University, and have also participated
-in exchange programs at UC Berkeley and Shanghai Jiao Tong University.
+by [He Wang](https://hughw19.github.io/) and [Li Yi](https://ericyi.github.io/). I received my B.S. from UC Santa Cruz
+in 2023. I have previously interned at BAAI, SenseTime, Westlake University, and Tsinghua University, and have also
+participated in exchange programs at UC Berkeley and Shanghai Jiao Tong University.
 
-My research interests lie at the intersection of robotics and machine learning. 
-Regarding the **RL vs. MPC** debate, I believe the distinction is subtle.
-Both frameworks demand human-in-the-loop refinement during development. 
-While RL employs reward-driven trial-and-error learning, MPC utilizes model-based real-time optimization. 
-Neither evolves autonomously: human expertise shapes their architectures, hyperparameters, 
-and failure recovery strategies.
+Currently, my research focuses on combining Reinforcement Learning (RL)—a reward-driven trial-and-error learning
+approach—with Model Predictive Control (MPC)—a model-based real-time optimization method—to develop more robust and
+efficient control systems. Feel free to reach out if you're interested in my work!
